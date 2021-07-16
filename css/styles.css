@@ -74,8 +74,15 @@ html {
   height: 10px;
   width: 10px;
   border-radius: 30px;
-  background: #42484c;
+  background: rgba(66,72,76,0.9);/*#42484c*/;
   content: '';
+}
+
+.app {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #menu-toggle {
