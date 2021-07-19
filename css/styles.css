@@ -41,24 +41,21 @@ html {
 
 #launcher::after {
   position: absolute;
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   border-radius: 100%;
   background: #ffffff;
   content: '';
   color: white;
   left: 50%;
   top: 50%;
-  margin-top: -7.5px;
-  margin-left: -7.5px;
+  margin-top: -6px;
+  margin-left: -6px;
 }
 
 
 .app {
-  position: initial;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: static;
 }
 
 
@@ -66,7 +63,7 @@ html {
 #menu-toggle {
   /*position*/
   z-index: 100;
-  position: initial;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
