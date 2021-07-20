@@ -4,7 +4,7 @@ Demo: https://chromefolio.repl.co
 
 ## Features
 
-* Made HTML, CSS, and vanilla JavaScript
+* Made with static HTML, CSS, and vanilla JavaScript
 * Battery level + charging status
 * Time
 
