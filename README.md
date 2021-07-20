@@ -1,6 +1,6 @@
 # chromefolio
 
-Demo: https://chromefolio.repl.co
+Demo: https://blazeryoo.github.io/chromefolio/
 
 ## Features
 
