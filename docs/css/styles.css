@@ -1,0 +1,93 @@
+html {
+  background-color: #607d8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#shelf {
+  /*bottom center position*/
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 90vh;
+
+  /*dimensions*/
+  height: 47px;
+  width: 95vw;
+
+  /*color*/
+  background-color: rgba(44,51,56,0.9);/*#2c3338*/
+
+  /*shape*/
+  border-radius: 30px;
+}
+
+#launcher {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: rgba(66,72,76,0.9);/*#42484c*/
+  width: 36px;
+  height: 36px;
+  left: 8px;
+}
+
+#launcher::after {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  background: #ffffff;
+  content: '';
+  color: white;
+  left: 50%;
+  top: 50%;
+  margin-top: -6px;
+  margin-left: -6px;
+}
+
+
+.app {
+  position: static;
+}
+
+
+
+#menu-toggle {
+  /*position*/
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 8px;
+  /*shape*/
+  border-radius: 30px;
+
+  height: 36px;
+  width: 95px;
+  background-color: rgba(66,72,76,0.9);/*#42484c*/
+
+  
+}
+
+.material-icons {
+  font-size: 18px;
+}
+ 
+
+.material-icons.md-white {
+  color: #ffffff;
+}
+
+#time {
+  font-size: 14px;
+  color: #ffffff;
+}
