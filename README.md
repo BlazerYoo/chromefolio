@@ -24,3 +24,7 @@ Demo: https://chromefolio.repl.co
 ## Credits
 
 Inspired by repos forked at [PortfolioOS](https://github.com/PortfolioOS)
+
+## License
+
+Read the [AGPL-3.0 License](https://github.com/BlazerYoo/chromefolio/blob/main/LICENSE)
