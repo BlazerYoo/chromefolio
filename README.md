@@ -5,8 +5,9 @@ Demo: https://blazeryoo.github.io/chromefolio/
 ## Features
 
 * Made with static HTML, CSS, and vanilla JavaScript
-* Battery level + charging status
-* Time
+* Network connection info (on hover)
+* Battery level (on hover) + charging status
+* Time + date (on hover)
 
 ## Future updates
 
