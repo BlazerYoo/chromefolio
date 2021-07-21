@@ -5,5 +5,6 @@
   } else {
     document.getElementById("time").innerHTML = time.substring(0, 5);
   }
+  document.getElementById("time").setAttribute("title", new Date().toDateString() + " " + new Date().toLocaleTimeString());
   t = setTimeout(function() {startTime()}, 500);
 })();
