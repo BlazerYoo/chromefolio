@@ -1,5 +1,10 @@
 html {
-  background-color: #607d8b;
+  /*https://500px.com/photo/91380019/Peyto-Lake-by-Darcy-Ertman/*/
+  background: url('/images/wallpaper.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +21,7 @@ html {
   top: 90vh;
 
   /*dimensions*/
-  height: 47px;
+  height: 55px;
   width: 95vw;
 
   /*color*/
@@ -33,9 +38,9 @@ html {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background-color: rgba(66,72,76,0.9);/*#42484c*/
-  width: 36px;
-  height: 36px;
+  background-color: rgba(81,87,92,0.9);/*#42484c*/
+  width: 40px;
+  height: 40px;
   left: 8px;
 }
 
@@ -71,9 +76,9 @@ html {
   /*shape*/
   border-radius: 30px;
 
-  height: 36px;
+  height: 40px;
   width: 95px;
-  background-color: rgba(66,72,76,0.9);/*#42484c*/
+  background-color: rgba(81,87,92,0.9);/*#42484c*/
 
   
 }
